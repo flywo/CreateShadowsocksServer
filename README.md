@@ -24,13 +24,13 @@
 # 二：开始搭梯子
 
 ## 1.进入搬瓦工首页，点击右上角client area按钮，输入刚才注册的邮箱和密码。
-![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/6.jpg)
+![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/6.png)
 
 ## 2.加载完成后，选择Services->my services->KiwiVM Control Panel，进入管理页面。
-![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/7.jpg)
+![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/7.png)
 
 ## 3.
-![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/8.jpg)
+![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/8.png)
 
 该页面可以看到IP地址，物理地址，端口号，硬盘使用情况，流量使用情况等等。我们需要记住的东西有IP地址，端口号，以及root密码（Main controls->Root Password modification可以随机生成）。
 
@@ -187,6 +187,6 @@ ssserver -d stop
 客户端，下载好，按照刚才的配置填入就可以了。
 
 如下：
-![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/9.jpg)
+![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/9.png)
 
-然后你可以试试：谷歌香港https://www.google.com.hk，能打开，那恭喜你了。打不开，先看看SS是否打开状态，然后检查SS服务器配置是否正确。
+然后你可以试试：[谷歌香港](https://www.google.com.hk)，能打开，那恭喜你了。打不开，先看看SS是否打开状态，然后检查SS服务器配置是否正确。
