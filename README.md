@@ -5,32 +5,32 @@
 # 一：购买搬瓦工VPS
 
 就只是为了翻个墙，我们就买最便宜的就好了$19.99，人民币140不到，这是一个优惠码IAMSMART5FQ956，可以少几块钱，当然，优惠码你可以通过在搬瓦工首页，显示源代码的方式找到，优惠多少看自己的运气。
-![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/1.jpg)
+![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/image/1.jpg)
 
 购买流程如下：
 
 ## 1.进入搬瓦工购买页面，Billing Cycle选择购买的时间，Location选择洛杉矶机房，然后add to cart。
-![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/2.jpg)
+![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/image/2.jpg)
 
 ## 2.加载完成后，输入优惠码，点击Validate Code，可以看到优惠了多少，再点击Checkout。
-![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/3.jpg)
+![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/image/3.jpg)
 
 ## 3.依照图片填入内容。然后Update，通过过后选择Credit Card and AliPay(Stripe)，勾选同意服务，再点击Complete Order。
-![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/4.jpg)
+![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/image/4.jpg)
 
 ## 4.点击pay now，然后选择支付宝支付，支付完成后你注册的邮箱会收到支付完成的邮件。
-![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/5.jpg)
+![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/image/5.jpg)
 
 # 二：开始搭梯子
 
 ## 1.进入搬瓦工首页，点击右上角client area按钮，输入刚才注册的邮箱和密码。
-![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/6.png)
+![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/image/6.png)
 
 ## 2.加载完成后，选择Services->my services->KiwiVM Control Panel，进入管理页面。
-![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/7.png)
+![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/image/7.png)
 
 ## 3.
-![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/8.png)
+![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/image/8.png)
 
 该页面可以看到IP地址，物理地址，端口号，硬盘使用情况，流量使用情况等等。我们需要记住的东西有IP地址，端口号，以及root密码（Main controls->Root Password modification可以随机生成）。
 
@@ -187,6 +187,6 @@ ssserver -d stop
 客户端，下载好，按照刚才的配置填入就可以了。
 
 如下：
-![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/9.png)
+![image](https://github.com/flywo/CreateShadowsocksServer/blob/master/image/9.png)
 
 然后你可以试试：[谷歌香港](https://www.google.com.hk)，能打开，那恭喜你了。打不开，先看看SS是否打开状态，然后检查SS服务器配置是否正确。
